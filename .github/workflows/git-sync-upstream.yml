@@ -3,6 +3,7 @@ on:
   schedule:
     # 1:00 AM every day
     - cron:  '0 1 * * *'
+  workflow_dispatch:
 
 jobs:
   sync:
